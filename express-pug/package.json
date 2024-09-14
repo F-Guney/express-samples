@@ -1,0 +1,19 @@
+{
+  "name": "express-pug",
+  "version": "1.0.0",
+  "description": "A minimal Express project with Pug templating engine",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Furkan Güney",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "pug": "^3.0.3"
+  }
+}
